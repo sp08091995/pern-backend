@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/auth/register" method="POST">
+    <div>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+    </div>
+    <div>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+    </div>
+    <div>
+        <input type="text" id="lasttname" name="lastname" placeholder="Last Name" required>
+    </div>
+    <div>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+    </div>
+    <div>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+    </div>
+    <div>
+        <input type="password" id="password2" name="password2" placeholder="Confirm Password" required>
+    </div>
+    <div>
+        <input type="submit" value="Register">
+    </div>
+    <div>
+        <a href="/users/login">Already Registered? Login</a>
+    </div>
+
+    
+    </form>
+</body>
+</html>

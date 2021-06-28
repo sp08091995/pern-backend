@@ -1,0 +1,31 @@
+{
+  "name": "typ-cms",
+  "version": "1.0.0",
+  "description": "Turn Your Page Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start",
+    "dev": "nodemon start",
+    "start": "node start"
+  },
+  "author": "Santanu Phukan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "react-router-dom": "^5.2.0",
+    "react-toastify": "^7.0.4",
+    "sequelize": "^6.6.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  }
+}
