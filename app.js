@@ -14,14 +14,14 @@ db.authenticate().then(()=>{
     console.log(err);
 })
 const app= express();
-// app.use(express.urlencoded({extended: false}))
+app.use(express.urlencoded({extended: false}))
 app.use(cors())
 app.use(express.json())
 app.use(userRouter)
 
 
 
-// app.set('view engine','ejs')
+app.set('view engine','ejs')
 
 app.get('/',(req,res)=>{
     res.render('index')
